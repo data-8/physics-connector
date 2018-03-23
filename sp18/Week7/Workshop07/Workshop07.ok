@@ -1,0 +1,15 @@
+{
+  "name": "Workshop 7",
+  "endpoint": "cal/phys77/sp18/workshop07",
+  "src": [
+    "Workshop07.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
